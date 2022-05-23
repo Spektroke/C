@@ -18,27 +18,33 @@ int main(){
   MOSTRAR( VA, VB, VC );
   return(0);
   }
-//________________________________________________________________
-void GENERAR( flaot v1[], int val ){
+/*________________________________________________________________
+          1)  */
+void GENERAR( flaot v1[], int val ){              
   int i;
   for( i=o; i<val; i++ ){
     printf("Ingrese Valor Real: %d ", i+1);
     scanf("%f", &v[i]);
   }
 }
-//______________________________________________________
-void RAIZ( float v1[], flaot v2[], int val ){
+/*_____________________________________________________________________
+          2)  */
+void RAIZ( float v1[], flaot v2[], int val ){     
   int i;
   for( i=0; i<val; i++ ){
     v2[i] = sqrt(v[i]);
   }
 }
+/*_____________________________________________________________________
+          3)  */
 void CALCULAR( float v1[], float v2[], float v3[], int val ){
   int i;
   for( i=0; i<val; i++ ){
     v3[i] = v1[i] - v2[i];
   }
 }
+/*_____________________________________________________________________
+          5)  */
 int MAYOR( float v3[], int val, int num ){
   int i, cant=0;
   for( i=0; i<val; i++ ){
@@ -48,6 +54,8 @@ int MAYOR( float v3[], int val, int num ){
   }
   return(cant);
 }
+/*_____________________________________________________________________
+          6)  */
 void MOSTRAR( float v2[], float v2[], float v3[], int cant, int val ){
   int i;
   printf("\n 1)VA     2)VB      3)VC");
