@@ -1,2 +1,0 @@
-# C
-Elementos de Programacion
